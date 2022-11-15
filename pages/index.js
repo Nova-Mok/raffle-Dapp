@@ -134,7 +134,7 @@ export default function Home() {
       }
     } else {
       /* MetaMask is not installed */
-      console.log("Please install MetaMask")
+      console.log("Please install the MetaMask")
     }
   }
 
@@ -143,7 +143,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Ether Lottery</title>
-        <meta name="description" content="An Ethereum Lottery dApp" />
+        <meta name="description" content="An Ethereum Lottery App" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
