@@ -119,7 +119,7 @@ export default function Home() {
         /* set account 1 to React state in the react */
         setAddress(accounts[0])
 
-        /* create local contract copy */
+        /* create local contract copy copy */
         const lc = lotteryContract(web3)
         setLcContract(lc)
 
