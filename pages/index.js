@@ -116,7 +116,7 @@ export default function Home() {
         setWeb3(web3)
         /* get list of accounts */
         const accounts = await web3.eth.getAccounts()
-        /* set account 1 to React state */
+        /* set account 1 to React state in the react */
         setAddress(accounts[0])
 
         /* create local contract copy */
