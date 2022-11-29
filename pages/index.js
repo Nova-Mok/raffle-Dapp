@@ -133,7 +133,7 @@ export default function Home() {
         setError(err.message)
       }
     } else {
-      /* MetaMask is not installed */
+      /* MetaMask is not installed in your browser */
       console.log("Please install the MetaMask")
     }
   }
