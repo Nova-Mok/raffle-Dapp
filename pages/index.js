@@ -15,7 +15,7 @@ export default function Home() {
   const [lotteryId, setLotteryId] = useState()
   const [error, setError] = useState('')
   const [successMsg, setSuccessMsg] = useState('')
-
+  
   useEffect(() => {
     updateState()
   }, [lcContract])
